@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form Register</title>
+    </head>
+    <body>
+        <h2>Register</h2>
+        <form action="/action_page.php">
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">First name</label></td> <td><input required type="text" id="fname" name="fname" placeholder="'John'"></td>    
+                    <td><label for="lname">Last name</label></td> <td><input required type="text" id="lname" name="lname" placeholder="'Smith'"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" name="jk" value="L" checked />Laki-laki
+                <input type="radio" name="jk" value="L" checked />Perempuan</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cty">City</label></td> <td><input type="text" id="cty" name="cty" placeholder="'Bogor'"></td>
+                <td><label for="dbirth">Date of Birth</label></td> <td><input type="date" id="dbirth" name="dbirth" placeholder="'dd-mm-yyyy'"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone</label></td> <td><input required type="number" id="phone" name="phone" placeholder="'0812xxxx'"></td>
+                    <td><label for="phone">Phone Alternative</label></td> <td><input required type="number" id="phone" name="phone" placeholder="'0858xxxx'"></td></td>
+            </tr>
+            <tr>
+                <td><label for="adress">Adress</label></td>
+                <td><textarea type="text" id="adress" name="adress" rows="3" cols="40" placeholder="'Jl. Dewi Sartika Rt/RW 02/03 Jakarta'"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input required type="email" id="email" name="email" placeholder="'User@explain.com'"></td>
+            <tr>                       
+        </table>
+        <input type="submit" value="submit">
+        </form> 
+    </body>
+</html>
